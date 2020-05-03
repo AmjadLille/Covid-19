@@ -4,7 +4,7 @@ import { fetchDailyData } from '../../api'
 import { Line } from 'react-chartjs-2'
 
 
-const Chart = () => {
+const Chart = ({data, country}) => {
     const [dailyData, setDailyData] = useState([])
 
     useEffect(() => {
