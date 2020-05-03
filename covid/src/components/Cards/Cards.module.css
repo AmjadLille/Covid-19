@@ -8,11 +8,11 @@ margin: 50px 0;
 }
 
 .infected {
-    border: 15px solid rgba(243, 45, 9, 0.5);
+    border: 15px solid rgba(243, 44, 9, 0.856);
 }
 
 .recovered {
-    border: 15px solid rgba(48, 24, 187, 0.5);
+    border: 15px solid rgba(13, 111, 175, 0.5);
 }
 .deaths {
     border: 15px solid rgba(39, 35, 34, 0.5);
