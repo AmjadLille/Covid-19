@@ -1,5 +1,5 @@
 import React from 'react'
-import {Cards, Chart, CountryPicker} from './components'
+import {Cards, Charts, CountryPicker} from './components'
 import style from './App.module.css'
 import {fetchData} from './api'
 
@@ -27,7 +27,7 @@ const {data, country} = this.state;
                 
                 <Cards data={data}/>
                 <CountryPicker handleCountryChange={this.handleCountryChange} />
-                <Chart data={data} country={country}/>
+                <Charts data={data} country={country}/>
             </div>
         )
     }
